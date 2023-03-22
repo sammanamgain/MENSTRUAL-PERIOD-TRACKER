@@ -97,3 +97,6 @@ flutter run
 <h2>Conclusion</h2>
 
 Congratulations! You have successfully set up and run the Flutter application with a Flask API that uses ARIMA model for prediction, and Firebase for authentication and Firestore for database management. The application includes a menstrual cycle prediction feature along with a calendar, statistics, symptoms, and content UI.
+
+<h2>Report</h2>
+you can get our project report from this link https://drive.google.com/file/d/1hSSh3oWzCwbDvhkMkHC9izkYlh_VtuHl/view?usp=sharing
