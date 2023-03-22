@@ -1,6 +1,6 @@
 <h1>Project Readme</h1>
 
-<h2>Introduction</h2>
+<h2 style="color:blue;" >Introduction</h2>
 
 
 This project is a Flutter application with a Flask API that uses ARIMA model for prediction. The application also uses Firebase for authentication and Firestore for database management.
@@ -22,8 +22,10 @@ Create a new Flutter project or open your existing project in your preferred IDE
 
 Run the following command in your terminal to add the Flutter dependencies to your project:
 
-```flutter pub get```
+```terminal
+flutter pub get
 
+```
 
 <h2>Flask</h2>
 
@@ -35,11 +37,15 @@ Install pip, a package manager for Python. You can find instructions to install 
 
 Install Flask by running the following command in your terminal:
 
-```pip install flask```
+```terminal
+pip install flask
+```
 
 Verify that Flask is installed correctly by running the following command:
 
-```flask --version```
+```terminal
+flask --version
+```
 
 
 <h2>Firebase</h2>
@@ -58,7 +64,9 @@ ARIMA (Autoregressive Integrated Moving Average) is a time series model used for
 
 To install the required libraries for the ARIMA model, run the following command in your terminal:
 
-```pip install numpy pandas matplotlib statsmodels```
+``` terminal 
+pip install numpy pandas matplotlib statsmodels
+```
 
 
 
@@ -67,17 +75,23 @@ To install the required libraries for the ARIMA model, run the following command
 
 Clone the repository to your local machine by running the following command in your terminal:
 
-```git clone https://github.com/your-username/your-repository-name.git```
+```terminal
+git clone https://github.com/your-username/your-repository-name.git
+```
 
 Open the project in your preferred IDE or text editor.
 
 <h3>Run the Flask API by navigating to the "api" directory in your terminal and running the following command:</h3>
 
-```python app.py```
+```python
+python app.py
+```
 
 <h3>Run the Flutter application by navigating to the "flutter_app" directory in your terminal and running the following command:</h3>
 
-```flutter run```
+```terminal 
+flutter run
+```
 
 
 <h2>Conclusion</h2>
